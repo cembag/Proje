@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <style>
+        #header-area{
+            border:2px solid coral;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="header-area">
+        <h1>
+            Information Universe Of Alizade ZADE
+        </h1>
+    </div>
+
+    <script>
+        if ($('#header-area')) {
+            $('#header-area').height($(window).height() - 30);
+            $('#header-area').resize(function () {
+                if ($('#header-area')) {
+                    if ($('#header-area').css('width') != (($(window).width()) + 'px'))
+                        $('#header-area').height($(window).height() - 30);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

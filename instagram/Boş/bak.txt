@@ -1,0 +1,7 @@
+ font-size: 500%;  
+    font-size: 281.25%;
+font-size: 200%; 
+font-size: 150%;
+font-size: 83.007%; 
+font-size: 73.24%;
+font-size: 62.5%;

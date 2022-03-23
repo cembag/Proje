@@ -1,0 +1,1327 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    width: 100%;
+    height: 1261px;
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+}
+
+/*Yazı Stilleri*/
+
+.poppins300{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+}
+.poppins400{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
+.poppins500{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+}
+.poppins700{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+}
+.roboto300{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;  
+}
+.roboto500{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+}
+.roboto400{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;  
+}
+.roboto700{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;  
+}
+.sfprodisplay400{
+    font-family:'SF Pro Display';
+    font-style:'normal';
+    font-weight:400;
+}
+.sfprodisplay500{
+    font-family:'SF Pro Display';
+    font-style:'normal';
+    font-weight:500;
+}
+.sfprodisplay600{
+    font-family:'SF Pro Display';
+    font-style:'normal';
+    font-weight:700;
+}
+
+/*Elips*/
+
+/*.elips{
+    display: inline-block;
+    margin-top: 2.36rem;
+    height: 2.66rem;
+    width: 72.5%;
+    
+}*/
+hr{
+    
+    border: 1px solid #C4C4C4;
+    float:left;
+    margin-top: 3.5rem;
+    margin-left: 3.2%;
+    width: 17%;
+    height: 0;
+}
+.elipsmor{
+    float:left;
+    margin-top: 2.36rem;
+    margin-left: 13.8%;
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    border-radius: 2rem;
+    width: 8.5%;
+    height: 2.66rem;
+}
+.elipsgri{
+    float:left;
+    margin-top: 2.36rem;
+    margin-left: 3.2%;
+    background: #C4C4C4;
+    border-radius: 2rem;
+    width: 8.5%;
+    height: 2.66rem;
+}
+
+/*Step*/
+.stepgritomor{
+    float:left;
+    margin-left: 23.5%;
+    color: #8936F0;
+    margin-top: 0.58rem;
+    margin-left: 23.5%;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+.elipsgritomor{
+    float:left;
+    margin-left: 3.2%;
+    margin-top: 2.36rem;
+    border-radius: 2rem;
+    width: 8.5%;
+    height: 2.66rem;
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+
+}
+.stepmor{
+    float:left;
+    margin-left: 14%;
+    margin-top: 0.58rem;
+    color: #8936F0;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+.stepgri{
+    float:left;
+    margin-top: 0.58rem;
+    margin-left: 23.5%;
+    color: #333333;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+
+/*Buton*/
+
+.buttonnext{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    border-radius: 0.8rem; 
+    border: 0;
+    width: 45%;
+    height: 3.25rem;
+}
+.buttongetstarted{
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    border-radius: 0.8rem;
+    border: 0;
+    font-family: 'Poppins'; 
+    font-style: normal; 
+    font-weight: 500;
+    font-size: 1.33rem; 
+    line-height: 2rem; 
+    color: #FFFFFF;
+    width: 91%;
+    height: 3.1rem;
+    margin-left: 4.5%;
+}
+#button1{
+    margin-top: 14%;
+}
+
+/*BİRİNCİ SAYFA KODLARI*/
+/*BİRİNCİ SAYFA KODLARI*/
+/*BİRİNCİ SAYFA KODLARI-1111111111111111111111111*/  
+/*BİRİNCİ SAYFA KODLARI*/
+/*BİRİNCİ SAYFA KODLARI*/
+
+/* 1 REM 12 PUNTO */
+
+.page1{
+    width: 100%;
+    height: 111rem;
+    border-top-left-radius: 2.125rem;
+    border-top-right-radius: 2.125rem;
+    background-color: white;    
+}
+.baslik{
+    display: inline-block;
+    padding-left: 6.9866%;
+    padding-top: 2.5rem;
+    font-size: 2.05rem;
+    width: 35.2%;
+    line-height: 2.4166rem;
+}
+#baslik1{
+    padding-top: 2%;
+    font-size: 1.4166rem;
+    text-align: center;
+    letter-spacing: 0.185rem;
+    text-transform: uppercase;
+    color: #943FF3;
+}
+#par{
+    padding-top: 4.2%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #333333;    
+}
+#baslik2{
+    padding-top: 4.2%; 
+    font-size: 1.83rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #333333;
+}
+#par2{
+   line-height: 1,66rem;
+   padding-top: 2.4%;
+   text-align: center;
+   color: #999999;
+}
+
+.img{   
+    padding-left: 48.228%;
+    padding-top:2.5rem;
+}
+#img1{
+    display: inline-block;
+    padding-left: 10%;
+    padding-top: 15%;
+    height:6,416rem;
+    max-width:9,58rem;
+}
+#img2{
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 19%;
+    
+}
+#img3{
+    padding-top: 20%;
+    padding-left: 15%;
+    height:6,416rem;
+    width:9,58rem;
+}
+#img4{
+    position: absolute;
+    padding-top: 13%;
+    padding-left: 19%;
+    height:6,416rem;
+    width:9,58rem;
+}
+#img5{
+    padding-top: 20%;
+    padding-left: 11%;
+    height:6,416rem;
+    width:9,58rem;
+}
+#img6{
+    position:absolute;
+    padding-top: 20%;
+    padding-left: 21%;
+    height:6,416rem;
+    width:9,58rem;
+}
+#img7{
+    position: relative;
+    padding-left: 8.6%;
+    padding-top: 2.7%;
+    z-index: 1;
+}
+#image24hour{
+    position: relative;
+    bottom:0.45rem;
+    padding-left: 40%;
+    z-index: 0;
+}
+
+#imgp1{
+    display: inline-block;
+    height: 3.3rem;
+    width: 9,166rem;
+    padding-top: 3.15%;
+    padding-left: 18.5%;
+    line-height: 1.583rem;
+    font-size: 1.333rem;    
+    color: #1E1D1D;
+}
+#imgp2{
+    display: inline-block;
+    padding-left:26%;
+    padding-top: 3.15%;
+    font-size: 1.333rem;   
+    line-height:1.5rem;
+    color: #1E1D1D;
+    text-align: center;
+}
+#imgp3{
+    display: inline-block;
+    padding-left:14.6%;
+    padding-top: 4.15%;
+    text-align: center;
+    color: #1E1D1D;
+    line-height: 1.583rem;
+    font-size: 1.333rem;  
+}
+#imgp4{    
+    display: inline-block;
+    padding-left:25.6%;
+    padding-top:3.15%;
+    text-align: center;
+    color: #1E1D1D;
+    line-height: 1.583rem;
+    font-size: 1.333rem;  
+}
+#imgp5{
+    display: inline-block;
+    padding-left:18%;
+    padding-top: 4.15%;
+    line-height: 1.583rem;
+    font-size: 1.333rem;
+    text-align: center;
+    color: #1E1D1D;
+}
+#imgp6{
+    padding-left: 29%;
+    display: inline-block;
+    line-height: 1.583rem;
+    font-size: 1.333rem;
+    text-align: center;
+    color: #1E1D1D;
+}
+
+
+/*  IKINCI SAYFA KODLARI */
+/*  IKINCI SAYFA KODLARI */
+/*  IKINCI SAYFA KODLARI-222222222222222222222222*/
+/*  IKINCI SAYFA KODLARI */
+/*  IKINCI SAYFA KODLARI */
+
+
+.page2{
+    overflow: hidden;
+    max-height: 0;
+    transition: all 500ms ease;
+    width: 100%;
+    height: 55.583rem;
+    border-radius: 2.125rem;
+}
+#page2backust{
+    width: 100%;
+    height: 6.583rem;
+    background-color: white;
+}
+#page2backalt{
+    height:49rem;
+    background: url(../img/Group%202716.png);
+}
+.rex{
+    position:relative;
+}
+#image24hourwhite{
+    margin-top: 25%;
+    padding-left: 41%;
+}
+
+#page2p{
+    
+    text-align: center;
+    padding-top: 1.232%;
+    color:#FFF;
+    font-size: 1.5rem;
+    line-height: 120%;
+}
+#inputname{
+    border-radius: 0.833rem;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    height: 5.1rem;
+    width:87%;
+    margin-top:4.2%;
+    margin-left:6.533%;
+}
+#button2{
+   margin-top: 4.2%;
+}
+
+
+/* UCUNCU SAYFA KODLARI */
+/* UCUNCU SAYFA KODLARI */
+/* UCUNCU SAYFA KODLARI-3333333333333333333333333 */
+/* UCUNCU SAYFA KODLARI */
+/* UCUNCU SAYFA KODLARI */
+
+.page3{
+    display:none;
+    width: 100%;
+    height: 55.583rem;
+    background-color: white;
+}
+#page3alt{
+    text-align: center;
+}
+#page3baslik{
+    text-align: center;
+    line-height: 120%;
+    font-size: 2rem;
+    color: #1E1D1D;
+    margin-top: 28%;
+}
+#page3ust{
+    height: 10.9%;
+}
+#instagramimg{
+    margin-top: 1.5%;
+}
+#page3p1{
+    margin-top:2%; 
+    font-size:1.5rem;
+    line-height: 2rem;
+    color: #1E1D1D;
+}
+
+#page3p2{
+    margin-top: 8%;
+    font-size:1.5rem;
+    line-height: 2rem;
+    color: #1E1D1D;
+}
+
+#buttonnext1{
+    margin-top:8.22%;
+}
+
+/*  DORDUNCU SAYFA KODLARI  */
+/*  DORDUNCU SAYFA KODLARI  */
+/*  DORDUNCU SAYFA KODLARI-444444444444444444444444444444444*/
+/*  DORDUNCU SAYFA KODLARI  */
+/*  DORDUNCU SAYFA KODLARI  */
+
+.page4{
+    display:none;
+    width: 100%;
+    height: 55.583rem;
+    background-color: white;
+}
+.step{
+    width: 100%;
+    height: 7rem;
+}
+.elipsp1{
+    color:#FFF; 
+    font-size: 1.3rem;
+    padding-top: 21%;
+    padding-left: 38.2%;
+    width: 27.7%; 
+    height: 1.58rem; 
+
+}
+.elipsp2{
+    color:#767676;
+    font-size: 1.3rem;
+    padding-top: 21%;
+    padding-left: 38.2%;
+    width: 27.7%; 
+    height: 1.58rem;  
+}
+.menu{
+    height: 10.9%;
+}
+.menu1{
+    height: 5.916rem;
+}
+#page4baslik{
+    height: auto;
+    width: 76%;
+    margin-left: 12.8%;
+    margin-top: 3.07%;
+    font-size: 2rem;
+    line-height: 120%;
+}
+#page4baslik2{
+    width: 61.3%;
+    line-height: 120%;
+    font-size: 2.16rem;
+    color: #1E1D1D; 
+    margin-left: 19.33%;
+    margin-top: 1.689%;
+}
+#page4p{
+    margin-left: 18.133%;
+    padding-top: 1.382%;
+    font-size: 1.1666rem;
+    line-height: 120%;
+    color: #1E1D1D;
+}
+#page4p1{
+    margin-left: 9.33%;
+    margin-top: 2.61136%;
+}
+#instagramuserID{
+    margin-left: 9%;
+    margin-top: 1%;
+    width: 81.33%;
+    height: 4.16rem;
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+}
+#page4p2{
+    margin-left: 9.33%;
+    margin-top: 1.53%;
+}
+#instagramemail{
+    margin-left: 9%;
+    margin-top: 1%;
+    width: 81.33%;
+    height: 4.16rem;
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+}
+#page4p3{
+    margin-left: 9.33%;
+    margin-top: 1.53%;
+}
+#instagrampassword{
+    margin-left: 9%;
+    margin-top: 1%;
+    width: 81.33%;
+    height: 4.16rem;
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+}
+.check{
+    float: left;
+    width: 1.16rem;
+    height: 1.16rem;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #505050;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;   
+}
+#check1{
+    margin-top: 1.9%;
+    margin-left: 10.93%;
+}
+#page4p4{
+    float: left;
+    line-height: 120%;
+    font-size: 0.8rem;
+    margin-top: 2.15%;
+    margin-left: 1.6%;
+    color: #5E5E5E;
+}
+#page4button{
+    margin-left:13%;
+    margin-top:1.6rem;
+}
+
+
+
+/* BEŞİNCİ SAYFA KODLARI */
+/* BEŞİNCİ SAYFA KODLARI */
+/* BEŞİNCİ SAYFA KODLARI 55555555555555555555555555*/
+/* BEŞİNCİ SAYFA KODLARI */
+/* BEŞİNCİ SAYFA KODLARI */
+
+
+
+
+.page5{
+    display:none;
+    width: 100%;
+    height: 55.583rem;
+    background-color: white;
+}
+#page5baslik1{
+    text-align: center;
+    padding-top:1.66rem;
+    font-size: 2rem;
+    line-height: 120%;
+    color: #1E1D1D;
+}
+#page5baslik2{
+    text-align: center;
+    padding-top: 0.8rem;
+    font-size: 2.166rem;
+    line-height: 120%;
+    color: #1E1D1D;
+}
+#page5mid{
+    padding-left: 14.66%;
+    padding-top: 2.92rem;
+}
+#page5p1{
+    text-align: left;
+    font-size: 1.33rem;
+    line-height: 120%;
+    color: #1E1D1D;
+}
+#page5p2{
+    text-align: left;
+    padding-top: 1.33rem;
+    font-size: 1.33rem;
+    line-height: 120%;
+    color:#1E1D1D;
+}
+#star1{
+    float:left;
+    padding-left: 14.666%;
+    padding-top: 1.666rem;
+}
+#page5p3{
+    float: left;
+    padding-left: 3.46%;
+    padding-top: 1.666rem;
+    line-height: 120%;
+    font-size: 1.333rem;
+}
+#star2{
+    float:left;
+    padding-left: 14.666%;
+    padding-top: 1.5rem;
+}
+#page5p4{
+    float:left;
+    padding-left: 3.46%;
+    padding-top: 1.5rem;
+    line-height: 120%;
+    font-size: 1.33rem;
+}
+#star3{
+    float:left;
+    padding-left: 14.666%;
+    padding-top: 1.5rem;
+}
+#page5p5{
+    float:left;
+    padding-left: 3.46%;
+    padding-top: 1.5rem;
+    line-height: 120%;
+    font-size: 1.33rem;
+}
+#star4{
+    float:left;
+    margin-left: 14.666%;
+    margin-top: 1.5rem;
+}
+#page5p6{
+    float:left;
+    padding-left: 3.46%;
+    padding-top: 1.5rem;
+    line-height: 120%;
+    font-size: 1.33rem;
+}
+#page5star1{
+    display: block;
+    width: 100%;
+    height: 3.5rem;
+}
+#page5star2{
+    display: block;
+    width: 100%;
+    height: 3.4rem;
+}
+#page5star3{
+    width: 100%;
+    height: 3.4rem;
+}
+#page5star4{
+    width: 100%;
+    height: 3.4rem;
+}
+#page5button{
+    margin-left:28%;
+    margin-top: 18%;
+}
+
+
+/*ALTINCI SAYFA KODLARI*/
+/*ALTINCI SAYFA KODLARI*/
+/*ALTINCI SAYFA KODLARI* 6666666666666666666666666666666/
+/*ALTINCI SAYFA KODLARI*/
+/*ALTINCI SAYFA KODLARI*/
+
+
+.page6{
+    display:none;
+    width: 100%;
+    height: 55.583rem;
+    background-color: white;
+}
+.page6frame1{
+    width: 100%;
+    height: 3.5rem;
+}
+.page6frame2{
+    width: 100%;
+    height: 2.1rem;
+}
+#page6img1{
+    float:left;
+    padding-left: 11.7333%;
+    padding-top: 2.5rem;
+}
+#page6p1{
+    line-height: 120%;
+    font-size:1.16rem;
+    padding-top: 2.08rem;
+    padding-left:1.6%;
+    float:left;
+}
+#page6img2{
+    float:left;
+    padding-left: 11.7333%;
+    padding-top: 1rem;
+}
+#page6p2{
+    padding-top:0.7rem;
+    padding-left:1.6%;
+    line-height: 120%;
+    font-size:1.16rem;
+    float:left;
+}
+.page6alt1{
+    margin-left: 3.46%;
+    margin-top: 3rem;
+    width: 93%;
+    height: 6.0833rem;
+    border: 1px solid #A44DF9;
+}
+.page6alt1baslik{
+    width: 91.8%;
+    height: 2.3rem;
+    margin-left: 4%;
+    padding-top:0.75rem;
+    
+}
+
+#page6baslik3{
+    float:left;
+    width: 29.33%;
+    height: 2.41rem;
+    font-size: 2rem;
+    line-height: 120%;
+    color: #000;
+}
+#page6baslik4{
+    float:left;
+    padding-left: 38%;
+    padding-top: 0.35rem;
+    font-size: 1.42rem;
+    line-height: 120%;
+    color: #000;
+}
+.page6alt1p{
+    width: 90.4%;
+    height: 1.66rem;
+    margin-left: 4%;
+    padding-top:0.16rem;
+}
+#page6p3{
+    float:left;
+    font-size: 1.33333rem;
+    line-height: 120%;
+    color:#000,    
+}
+#page6p4{
+    float:left;
+    padding-left: 50%;
+    font-size:1.41111rem;
+    line-height: 120%;
+    color:#000;
+}
+
+#page6img3{
+    position: relative;
+    left: 41%;
+    bottom: 82%;
+}
+
+
+
+#page6alt2{
+    margin-left: 3.46%;
+    margin-top: 2.58rem;
+    width: 93%;
+    height: 6.0833rem;
+    border: 1px solid #A44DF9;
+}
+
+
+
+.page6alt2baslik{
+    width: 91.8%;
+    height: 2.3rem;
+    margin-left: 4%;
+    padding-top:0.75rem;
+    
+}
+
+#page6baslik5{
+    float:left;
+    width: 29.33%;
+    height: 2.41rem;
+    font-size: 2rem;
+    line-height: 120%;
+    color: #000;
+}
+#page6baslik6{
+    float:left;
+    padding-left: 38%;
+    padding-top: 0.35rem;
+    font-size: 1.42rem;
+    line-height: 120%;
+    color: #000;
+}
+.page6alt2p{
+    width: 90.4%;
+    height: 1.66rem;
+    margin-left: 4%;
+    padding-top:0.16rem;
+}
+
+#page6p5{
+    float:left;
+    
+    font-size: 1.33333rem;
+    line-height: 120%;
+    color:#000,    
+}
+#page6p6{
+    float:left;
+    padding-left: 50%;
+    font-size:1.41111rem;
+    line-height: 120%;
+    color:#000;
+}
+
+#page6img4{
+    position: relative;
+    left: 41%;
+    bottom: 82%;
+}
+#page6buttonnext{
+    margin-left:28%;
+    margin-top: 9%;
+}
+
+
+
+/* YEDİNCİ SAYFA KODLARI */
+/* YEDİNCİ SAYFA KODLARI */
+/* YEDİNCİ SAYFA KODLARI 7777777777777777777777777777777777777777*/
+/* YEDİNCİ SAYFA KODLARI */
+/* YEDİNCİ SAYFA KODLARI */
+
+
+.page7{
+    display:none;
+    width: 100%;
+    height: 55.583rem;
+    background-color: white;
+}
+#page7baslik1{
+    text-align: center;
+    padding-top: 3.32rem;
+    font-size: 2rem;
+    line-height: 120%;
+    color: #1E1D1D;
+}
+#page7image1{
+    margin-left: 41.4%;
+    margin-top: 1.333rem;
+
+}
+#page7p1{
+    text-align: center;
+    margin-top: 1.1833rem;
+    font-size: 1.333rem;
+    line-height: 120%;
+}
+
+/* Küçük elipsin başladığı yapı */
+/* Küçük elipsin başladığı yapı */
+/* Küçük elipsin başladığı yapı */
+/* Küçük elipsin başladığı yapı */
+/* Küçük elipsin başladığı yapı */
+/* Küçük elipsin başladığı yapı */
+/* Küçük elipsin başladığı yapı */
+/* Küçük elipsin başladığı yapı */
+/* Küçük elipsin başladığı yapı */
+
+#page7img2{   
+    margin-left: 32.533%;
+    margin-top: 1.75rem;
+    float:left;
+}
+#page7p2{
+    
+    
+    float:left;
+    color: #1E1D1D;
+    line-height: 120%;
+    font-size:1.16rem;
+    margin-top: 1.333rem;
+    padding-left:1.6%;
+}
+
+.odemeyontemleri{
+    margin-left: 26.6%;
+    margin-top:2.4rem;
+    width: 43%;
+    height: 2.3rem;
+}
+.secureserverdiv{
+    width: 100%;
+    height: 1.5rem;
+}
+
+#page7img4{
+    float:left;
+    margin-left: 37.46%;
+    margin-top: 0.3rem;
+}
+#page7p4{
+    float:left;
+    margin-top: 0.5rem;
+    margin-left: 0.56%;
+    font-size: 1rem;
+    line-height: 100%;
+    color: #908E97;
+}
+
+.cont{
+    width: 100%;
+    height: 2.8rem;
+}
+#page7img3{
+    float:left;
+    margin-top: 1rem;
+    margin-left: 32.533%;
+}
+#page7p3{
+    float: left;
+    margin-top: 0.58333rem;
+    padding-left: 1.6%;
+    color: #1E1D1D;
+    line-height: 120%;
+    font-size:1.16rem;
+}
+#buttonodeme{
+    margin-left: 12%;
+    margin-top: 2.24rem;
+    border:0;
+    color:#FFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 120%;
+    font-size: 1.33rem;
+    border-radius: 0.8rem;
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    width: 76%;
+    height: 4.25rem;
+    
+}
+
+
+/*SEKİZİNCİ SAYFA KODLARI*/
+/*SEKİZİNCİ SAYFA KODLARI*/
+/*SEKİZİNCİ SAYFA KODLARI 888888888888888888888888888888888888888888*/
+/*SEKİZİNCİ SAYFA KODLARI*/
+/*SEKİZİNCİ SAYFA KODLARI*/
+
+.page8{
+    display:none;
+    width: 100%;
+    height: 87.3rem;
+    background-color: white;
+}
+
+#page8baslik1{
+    text-align: left;
+    margin-top: 4.25rem;
+    margin-left: 7.466%;
+    font-size: 2rem;
+    line-height: 120%;
+    color: #1E1D1D;
+}
+
+#page8odemeyontemleri{
+    margin-left: 7.466%;
+    margin-top: 0.58rem;
+}
+#page8secureserver{
+    padding-left: 7.466%;
+    padding-top: 0.58rem;
+}
+#page8img1{
+    float:left;
+}
+#page8p1{
+    float:left;
+    margin-top: 0.25rem;
+    margin-left: 0.56%;
+    font-size: 1rem;
+    line-height: 100%;
+    color: #908E97;
+}
+
+#username{
+    width: 87.733%;
+    height: 5.08rem;
+    margin-top: 2.33rem;
+    border-radius: 0.8rem;
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+}
+#usersurname{
+    width: 87.733%;
+    height: 5.08rem;
+    margin-top: 1.16rem;
+    border-radius: 0.8rem;
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+}
+#cardnumber{
+    width: 87.733%;
+    height: 5.08rem;
+    margin-top: 1.16rem;
+    border-radius: 0.8rem;
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+}
+#expirationdate{
+    width: 87.733%;
+    height: 5.08rem;
+    margin-top: 1.16rem;
+    border-radius: 0.8rem;
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+}
+#securitycode{
+    width: 87.733%;
+    height: 5.08rem;
+    margin-top: 1.16rem;
+    border-radius: 0.8rem;
+    border: 1px solid #4D4D4D;
+    box-sizing: border-box;
+}
+.secilenabonelik{
+    width: 88.533%;
+    height: 6.0833rem;
+    margin-left: 5.733%;
+    margin-top: 1.5rem;
+    border: 3px solid #A44DF9;
+    box-sizing: border-box;
+}
+.div{
+    width: 24.9%;
+    height: 2.5rem;
+    padding-left: 3.466%;
+    padding-top: 1.08rem;
+}
+.div1{
+    text-align: left;
+    width: 50%;
+    height: 1.66rem;
+    padding-left: 4%;
+    padding-top:0;
+}
+#page8baslik2{
+    float: left;
+    font-size: 2rem;
+    line-height: 120%;
+    color:#000;
+}
+#page8p2{
+    float: left;
+    font-size: 1.333rem;
+    line-height: 120%;
+    color: #655959;
+    position: relative;
+    left:80%;
+    bottom: 26.5%;
+}
+#page8p3{
+    text-align: left;
+    font-size: 1.33rem;
+    line-height: 120%;
+    color: #212121;
+}
+#page8p4{
+    margin-left: 5.733%;
+    margin-top: 2.33rem;
+    font-size:1.08rem;
+    line-height: 120%;
+    color:#000;
+}
+#check2{
+    float:left;
+    margin-left: 5.733%;
+    margin-top:1.5rem;
+}
+#page8p5{
+    float:left;
+    padding-top: 1.66rem;
+    padding-left: 1.66%;
+    font-size: 0.8rem;
+    line-height: 120%;
+    color: #5E5E5E;
+}
+
+#buttonodeme1{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 1.33rem;
+    line-height: 120%;
+    width: 88.53%;
+    height: 4.25rem;
+    margin-left: 5.733%;
+    margin-top: 2.4166rem;
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    border-radius: 0.8rem;
+    border: 0;
+}
+
+/* DOKUZUNCU SAYFA KODLARI */
+/* DOKUZUNCU SAYFA KODLARI */
+/* DOKUZUNCU SAYFA KODLARI */
+/* DOKUZUNCU SAYFA KODLARI 99999999999999999999999999999999*/
+/* DOKUZUNCU SAYFA KODLARI */
+/* DOKUZUNCU SAYFA KODLARI */
+/* DOKUZUNCU SAYFA KODLARI */
+
+.page9{
+    display: none;
+    text-align: center;
+    width: 100%;
+    height: 55.583rem;
+    background-color: white;
+}
+.page9alt{
+    text-align: center;
+}
+#page9img1{
+    margin-top: 7.7rem;
+}
+#page9p1{
+    margin-top: 1.08rem;
+    line-height: 120%;
+    font-size: 2rem;
+    color: #1E1D1D;
+}
+#page9p2{
+    margin-top: 1.5rem;
+    line-height: 120%;
+    font-size: 1.4166rem;
+    color: #1E1D1D;
+}
+#page9img2{
+    margin-top: 1.583rem;
+    
+}
+#page9img3{
+    margin-top: 1.583rem;
+}
+#page9p3{
+    margin-top: 0.58rem;
+    font-size:1.416rem;
+    line-height: 120%;
+    color: #1E1D1D;
+}
+
+
+/* AKSİYON ALANI */
+/* AKSİYON ALANI */
+/* AKSİYON ALANI */
+/* AKSİYON ALANI */
+/* AKSİYON ALANI */
+/* AKSİYON ALANI */
+/* AKSİYON ALANI */
+/* AKSİYON ALANI */
+/* AKSİYON ALANI */
+/* AKSİYON ALANI */
+/* AKSİYON ALANI */
+/* AKSİYON ALANI */
+
+
+
+
+
+
+
+
+
+
+
+/*Telefon-S*/
+
+@media (min-width: 320px) and (max-width: 374px){
+    html{
+        width: 100%;
+        font-size: 62.5%;
+    }
+}
+
+/*Telefon-S+*/
+
+@media (min-width: 320px) and (max-width: 374px){
+    html{
+        width: 100%;
+        font-size: 62.5%;
+    }
+}
+
+
+/*Telefon-M*/
+
+@media (min-width: 375px) and (max-width: 399px){
+    html{
+        width: 100%;
+        font-size: 73.24%;
+
+    }
+}
+
+/*Telefon-M+*/
+
+@media (min-width: 400px) and (max-width: 424.999px){
+    html{
+        width: 100%;
+        font-size: 78.122%
+
+    }
+}
+
+
+
+
+/*Telefon-L*/
+
+@media (min-width: 425px) and (max-width: 499.99px){
+    html{
+        width: 100%;
+        font-size: 83.004%;
+
+    }
+}
+
+/*Telefon-L+*/
+
+@media (min-width: 500px) and (max-width: 599.99px){
+    html{
+        width: 100%;
+        font-size: 97.65%;
+
+    }
+}
+
+/*Telefon-L++*/
+
+@media (min-width: 600px) and (max-width: 767px){
+    html{
+        width: 100%;
+        font-size: 117.18%;
+
+    }
+}
+
+/*Tablet*/
+
+@media (min-width: 768px) and (max-width: 1023px){
+    html{
+        width: 100%;
+        font-size: 150%;
+
+    }
+}
+
+/*Laptop-S*/
+
+@media (min-width: 1024px) and (max-width: 1439px){
+    html{
+        width: 100%;
+        font-size: 200%; 
+ 
+    }
+}
+
+/*Laptop-L*/
+
+@media (min-width: 1440px) and (max-width: 2559px){
+    html{
+        width: 100%;
+        font-size: 281.25%;
+
+    }
+}
+
+/*4K-Screen*/
+
+@media (min-width: 2560px){
+    html{
+        width: 100%;
+        font-size: 500%;  
+    }
+}

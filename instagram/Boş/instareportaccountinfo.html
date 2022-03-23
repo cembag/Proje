@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Poppins:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Js/javascript.js">
+    <link rel="stylesheet" media="screen" href="../css/InstaReport.css">
+</head>
+
+<body>
+    <section class="InstaReport">
+        <section class="account-info" id="account-info">
+            <div class="menu" id="account-info">
+                <h3 class="baslik">Insta<span style="color: #A34CF9;">Report</span></h3>
+                <div class="menuimg">
+                    <a href=#page1><img src="../img/Vector%2081.png" alt="" class="img"></a>
+                </div>
+            </div>
+
+
+            <div class="step">
+
+                <div>
+                    <div>
+                        <div class="elipsmor elips1">
+                            <p class="roboto700 elipsp1">1</p>
+                        </div>
+                        <hr class="elipshr">
+                        <div class="elipsgri" id="elips2">
+                            <p class="roboto700 elipsp2">2</p>
+                        </div>
+                        <hr class="elipshr">
+                        <div class="elipsgri" id="elips3">
+                            <p class="roboto700 elipsp2">3</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="stepmor roboto400">Step-1</p>
+                        <p class="stepgri roboto400">Step-2</p>
+                        <p class="stepgri roboto400">Step-3</p>
+                    </div>
+
+                </div>
+            </div>
+            <div id="account-info-div">
+                <div style="text-align: center;">
+                    <h2 class="poppins700" id="account-info-baslik-one">Creat Password to Start</h2>
+                    <h3 class="poppins300" id="account-info-baslik-two">your membership</h3>
+                    <p class="poppins300" id="account-info-par-one">Just a few steps and you are done</p>
+                </div>
+
+    
+                <div style="width: 81.33vw; text-align: left; margin: auto; max-width: 400px;">
+                    <form action="download.html" method="post" >
+                        <p class="poppins400" style="margin-top: 2.2vh;">Instagram user ID</p>
+                        <div style="text-align: center;">
+                            <input type="text" name="userID" placeholder="your user id" id="instagramuserID" style="padding-left: 20px; color: #000; font-size:1.08rem; font-family: 'Poppins'; font-weight:400;">
+                        </div>
+                        <p class="poppins400" style="margin-top: 1.8vh;">E-mail</p>
+                        <div style="text-align: center;">
+                            <input type="text" name="email" placeholder="Loremipsum@gmail.c" id="instagramemail" style="padding-left: 20px; color: #000000; font-size:1.16rem; font-family: 'Poppins'; font-weight:400;">
+                        </div>
+                        <p class="poppins400" style="margin-top: 1.8vh;">Password</p>
+                        <div style="text-align: center;">
+                            <input type="text" name="password" placeholder="Add a password" id="instagrampassword" style="padding-left: 20px; color: #000; font-size:1.08rem; font-family: 'Poppins'; font-weight:400;">
+                        </div>
+                        <div style="width: 273px; height: 4.6vh; text-align: center; margin: auto;">
+                            <input type="checkbox" name="checkbox" value="value" class="check" id="check1">
+                            <p class="poppins300" id="account-info-par-two">Lorem ipsum sit amet dolorLorem ipsum sit amet dolor</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <button class="buttonnext" style="margin-top: 3.7vh;">Next</button>
+                        </div>
+                    </form>
+                    
+
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    
+</body>
+</html>
+
+
+<!--
+<?php
+
+include("baglanti.php")
+
+    
+    if(isset($_POST["userID"], $_POST["email"], $_POST["password"]){
+        
+        $user_id=$_POST("userID");
+        $email=$_POST("email");
+        $password=$_POST("password");
+        
+        $ekle= "INSERT INTO user_data (user_id, email, password) VALUES ('".$user_id."','".$email"','".$password."')";
+        
+        if($baglanti->query($ekle)) === TRUE){
+            echo "<script>alert('basarili')</script>";
+        }
+        
+    }
+?>
+
+
+
+
+include("baglanti.php");
+
+if(isset($_POST["instagramname"])){
+    
+    $instaname=$_POST["instagramname"];
+    
+    $ekle= "INSERT INTO user_data(instaname) VALUES ('".$instaname."')";
+    
+    if($baglanti->query($ekle)===TRUE){
+        echo "<script>alert('Basarili')</script>";
+    }
+}
+
+?>
+-->
+

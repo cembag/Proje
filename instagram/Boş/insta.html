@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<meta charset="UTF-8">
+
+<head>
+    <title>Instagram | Anasayfa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script src="https://kit.fontawesome.com/847471852a.js" crossorigin="anonymous"></script>
+
+<style>
+    
+    #termofusebutton:hover{
+        background-color: white;
+    }
+    
+    #privacybutton:hover{
+        background-color: white;
+    }
+    
+    #contactbutton:hover{
+        background-color: white;
+    }
+    
+</style>
+
+
+</head>
+
+
+<body style="background-color: lightgray;" >
+    
+    <section style="width: 375px; margin: auto; background-color: white; border:1px solid black; ">
+        
+    <div class="footer" style="height: 50px; background-color: #9E5DF2;">
+	                
+                    <form action="#termofuse">
+	                    <button id="termofusebutton" class="footerbutton poppins300" style="float:left; background-color: #9E5DF2; border:none; margin: 15px 20px; width: 90px;" >
+	                        <p style="float:left;">Term of Use</p>
+	               
+	                    </button>
+	                </form>
+	                <form action="#privacypolicy">
+	                    <button id="privacybutton" class="footerbutton poppins300" style="float:left; background-color: #9E5DF2; border:none; margin:15px 20px; width: 90px; height: 20px;">
+	                        <p style="float: left;">Privacy Policy</p>
+	                    
+	                    </button>
+	                </form>
+	                <form action="#contactus">
+	                    <button id="contactbutton" class="footerbutton poppins300" style="float:left; background-color: #9E5DF2; border: none; margin: 15px 20px; width: 70px;">
+	                        <p style="float: left;">Contact Us</p>
+	                      
+	                    </button>
+	                </form>
+	            </div>
+    </section>
+
+</body>
+
+
+function goster() {
+            if (document.getElementById("termofuse").style.display == "block") {
+                document.getElementById("termofuse").style.display = "none";
+            } else {
+                document.getElementById("termofuse").style.display = "block";
+            }
+            if (document.getElementById("privacypolicy").style.display == "block") {
+                document.getElementById("privacypolicy").style.display = "none";
+            }
+            if (document.getElementById("contactus").style.display == "block") {
+                document.getElementById("contactus").style.display = "none";
+            }
+        }
+        function goster1() {
+            if (document.getElementById("privacypolicy").style.display == "block") {
+                document.getElementById("privacypolicy").style.display = "none";
+            } else {
+                document.getElementById("privacypolicy").style.display = "block";
+            }
+            if (document.getElementById("termofuse").style.display == "block") {
+                document.getElementById("termofuse").style.display = "none";
+            }
+            if (document.getElementById("contactus").style.display == "block") {
+                document.getElementById("contactus").style.display = "none";
+            }
+        }
+        function goster2() {
+            if (document.getElementById("contactus").style.display == "block") {
+                document.getElementById("contactus").style.display = "none";
+            } else {
+                document.getElementById("contactus").style.display = "block";
+            }
+            if (document.getElementById("privacypolicy").style.display == "block") {
+                document.getElementById("privacypolicy").style.display = "none";
+            }
+            if (document.getElementById("termofuse").style.display == "block") {
+                document.getElementById("termofuse").style.display = "none";
+            }
+        }
+        if ($('#page2')) {
+            $('#page2').height($(window).height() - 30);
+            $('#page2').resize(function() {
+                if ($('#page2')) {
+                    if ($('#page2').css('width') != (($(window).width()) + 'px'))
+                        $('#page2').height($(window).height() - 30);
+                }
+            });
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Poppins:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Js/javascript.js">
+    <link rel="stylesheet" href="../css/InstaReport.css">
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
+
+</head>
+
+<body>
+
+
+    <section class="InstaReport">
+        <section class="account" id="account">
+            <div class="menu" id="menu-account">
+                <h3 class="baslik"><span style="color: #A34CF9;">Insta</span>Report</h3>
+                <div class="menuimg">
+                    <a href=#page1><img src="../img/Vector%2081.png" alt="" class="img"></a>
+                </div>
+            </div>
+            <div id="account-div">
+                <h3 class="poppins700" id="account-baslik-one">Finish Setting up<br><span style="font-family='Poppins'; font-style: normal; font-weight:300;">your account</span></h3>
+                <img src="../img/instagram.png" alt="" id="instagramimg">
+                <p class="roboto400" id="account-par-one">Set up your account.<br> Sign up with Instagram,<br> download app.</p>
+
+                <p class="roboto400" id="account-par-two">Start to use Application safely.</p>
+
+                <form action="#account-info">
+                    <button class="buttonnext" id="account-next" style="margin-top: 40px;">Next</button>
+                </form>
+
+            </div>
+        </section>
+        
+        <section class="account-info" id="account-info">
+            <div class="menu" id="account-info">
+                <h3 class="baslik">Insta<span style="color: #A34CF9;">Report</span></h3>
+                <div class="menuimg">
+                    <a href=#page1><img src="../img/Vector%2081.png" alt="" class="img"></a>
+                </div>
+            </div>
+
+
+            <div class="step">
+
+                <div>
+                    <div>
+                        <div class="elipsmor elips1">
+                            <p class="roboto700 elipsp1">1</p>
+                        </div>
+                        <hr class="elipshr">
+                        <div class="elipsgri" id="elips2">
+                            <p class="roboto700 elipsp2">2</p>
+                        </div>
+                        <hr class="elipshr">
+                        <div class="elipsgri" id="elips3">
+                            <p class="roboto700 elipsp2">3</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p class="stepmor roboto400">Step-1</p>
+                        <p class="stepgri roboto400">Step-2</p>
+                        <p class="stepgri roboto400">Step-3</p>
+                    </div>
+
+                </div>
+            </div>
+            <div id="account-info-div">
+                <div style="text-align: center;">
+                    <h2 class="poppins700" id="account-info-baslik-one">Creat Password to Start</h2>
+                    <h3 class="poppins300" id="account-info-baslik-two">your membership</h3>
+                    <p class="poppins300" id="account-info-par-one">Just a few steps and you are done</p>
+                </div>
+
+    
+                <div style="width: 81.33vw; text-align: left; margin: auto; max-width: 400px;">
+                    <form action="download.html" method="post" >
+                        <p class="poppins400" style="margin-top: 2.2vh;">Instagram user ID</p>
+                        <div style="text-align: center;">
+                            <input type="text" name="userID" placeholder="your user id" id="instagramuserID" style="padding-left: 20px; color: #000; font-size:1.08rem; font-family: 'Poppins'; font-weight:400;">
+                        </div>
+                        <p class="poppins400" style="margin-top: 1.8vh;">E-mail</p>
+                        <div style="text-align: center;">
+                            <input type="text" name="email" placeholder="Loremipsum@gmail.c" id="instagramemail" style="padding-left: 20px; color: #000000; font-size:1.16rem; font-family: 'Poppins'; font-weight:400;">
+                        </div>
+                        <p class="poppins400" style="margin-top: 1.8vh;">Password</p>
+                        <div style="text-align: center;">
+                            <input type="text" name="password" placeholder="Add a password" id="instagrampassword" style="padding-left: 20px; color: #000; font-size:1.08rem; font-family: 'Poppins'; font-weight:400;">
+                        </div>
+                        <div style="width: 273px; height: 4.6vh; text-align: center; margin: auto;">
+                            <input type="checkbox" name="checkbox" value="value" class="check" id="check1">
+                            <p class="poppins300" id="account-info-par-two">Lorem ipsum sit amet dolorLorem ipsum sit amet dolor</p>
+                        </div>
+                        <div style="text-align: center;">
+                            <button class="buttonnext" style="margin-top: 3.7vh;">Next</button>
+                        </div>
+                    </form>
+                    
+
+                </div>
+            </div>
+        </section>
+
+    </section>
+    <!--
+    <script>
+        
+  if ($('#page3')) {
+            $('#page3').height($(window).height() - 30);
+            $('#page3').resize(function () {
+                if ($('#page3')) {
+                    if ($('#page3').css('width') != (($(window).width()) + 'px'))
+                        $('#page3').height($(window).height() - 30);
+                }
+            });
+        }
+            
+    </script>-->
+</body>
+
+</html>

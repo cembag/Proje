@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Poppins:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Js/javascript.js">
+    <link rel="stylesheet" media="screen" href="../css/InstaReport.css">
+    <link rel="stylesheet" href="../page/instareportpayment.html">
+
+</head>
+
+<body>
+    <section class="InstaReport">
+        <section class="plan" id="plan">
+            <div class="menu" id="menuplan">
+                <h3 class="baslik">Insta<span style="color: #A34CF9;">Report</span></h3>
+                <div class="menuimg">
+                    <a href=#page1><img src="../img/Vector%2081.png" alt="" class="img"></a>
+                </div>
+            </div>
+
+            <div class="step">
+                <div>
+                    <div class="elipsmor elips1">
+                        <p class="roboto700 elipsp1">1</p>
+                    </div>
+                    <hr class="elipshr">
+                    <div class="elipsgritomor" id="elips2">
+                        <p class="roboto700 elipsp1">2</p>
+                    </div>
+                    <hr class="elipshr">
+                    <div class="elipsgri" id="elips3">
+                        <p class="roboto700 elipsp2">3</p>
+                    </div>
+                </div>
+
+                <div>
+                    <p class="stepmor roboto400">Step-1</p>
+                    <p class="stepgritomor roboto400">Step-2</p>
+                    <p class="stepgri roboto400">Step-3</p>
+                </div>
+            </div>
+
+
+            <h3 class="poppins700" id="plan-baslik-one">Choose the plan</h3>
+            <h3 class="poppins300" id="plan-baslik-two">that's right for you</h3>
+
+
+
+            <div style="width: 350px; margin: auto;">
+                <div class="page6frame1">
+
+                    <img src="../img/Ellipse%203.png" alt="" id="page6img1">
+                    <p class="poppins700" id="page6p1">24 hour free trial</p>
+
+                </div>
+
+                <div class="page6frame2">
+                    <img src="../img/Ellipse%203.png" alt="" id="page6img2">
+                    <p class="poppins700" id="page6p2">Change or cancel your plan anytime</p>
+                </div>
+            </div>
+
+
+            <div style="height: 32.8vh; width: 100vw; text-align: center;">
+                <div style="width: 100%;">
+
+                    <button onclick="secildi();" class="tarife" id="buttonweeklymembership">
+
+                        <div style="position: absolute; width: 85vw; text-align: center; max-width: 500px;">
+                            <img src="../img/24hour%20free%20trial.png" alt="">
+                        </div>
+                        <div style="height: 100%;">
+                            <div class="page6alt1baslik">
+                                <h3 class="roboto700" id="page6baslik3">Weekly</h3>
+                                <h3 class="roboto300" id="page6baslik4">TOTAL PRICE</h3>
+                            </div>
+
+
+                            <div class="page6alt1p">
+                                <p class="roboto500" id="page6p3">1.99 $ per week</p>
+                                <p class="roboto700" id="page6p4">1.99 $</p>
+                            </div>
+                        </div>
+
+                    </button>
+                </div>
+                <div style="width: 100%;">
+
+                    <button onclick="secildi1();" class="tarife" id="buttonyearmembership" style="margin-top: 30px;">
+
+                        <div style="height: 100%;">
+                            <div style="position: absolute; width: 85vw; text-align: center; max-width: 500px;">
+                                <img src="../img/24hour%20free%20trial.png" alt="">
+                            </div>
+                            <div class="page6alt2baslik">
+                                <h3 class="roboto700" id="page6baslik5">Annual</h3>
+                                <h3 class="roboto300" id="page6baslik6">TOTAL PRICE</h3>
+                            </div>
+
+                            <div class="page6alt2p">
+                                <p class="roboto500" id="page6p5">1.99 $ per year</p>
+                                <p class="roboto700" id="page6p6">1.99 $</p>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+
+            </div>
+
+            <div style="text-align: center;">
+                <form action="instareportpayment.html">
+                    <button class="buttonnext" id="page6buttonnext">Next</button>
+                </form>
+            </div>
+        </section>
+    </section>
+
+    <script>
+        function secildi() {
+            var secenekA = document.getElementById("buttonweeklymembership");
+            var secenekB = document.getElementById("buttonyearmembership");
+            var degisA = document.getElementById("page8baslik2");
+            var degisB = document.getElementById("page8p3");
+            secenekA.style.border = "3px solid #A44DF9";
+            secenekB.style.border = "1px solid #A44DF9";
+            degisA.innerHTML = "Weekly";
+            degisB.innerHTML = "1.99 $ per week";
+
+        }
+
+        function secildi1() {
+            var secenekA = document.getElementById("buttonweeklymembership");
+            var secenekB = document.getElementById("buttonyearmembership");
+            var degisA = document.getElementById("page8baslik2");
+            var degisB = document.getElementById("page8p3");
+            secenekA.style.border = "1px solid #A44DF9";
+            secenekB.style.border = "3px solid #A44DF9";
+            degisA.innerHTML = "Annual";
+            degisB.innerHTML = "1.99 $ per year";
+        }
+
+    </script>
+</body>
+
+</html>

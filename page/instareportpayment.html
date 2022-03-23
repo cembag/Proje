@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Poppins:wght@300;400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Js/javascript.js">
+    <link rel="stylesheet" media="screen" href="../css/InstaReport.css">
+
+</head>
+
+<body>
+
+    <section class="InstaReport">
+        <section class="payment" id="payment">
+            <div class="menu" id="menupayment">
+                <h3 class="baslik"><span style="color: #A34CF9;">Insta</span>Report</h3>
+                <div class="menuimg">
+                    <a href=#page1><img src="../img/Vector%2081.png" alt="" class="img"></a>
+                </div>
+            </div>
+
+            <div class="step">
+                <div>
+                    <div class="elipsmor elips1">
+                        <p class="roboto700 elipsp1">1</p>
+                    </div>
+                    <hr class="elipshr">
+                    <div class="elipsgritomor" id="elips2">
+                        <p class="roboto700 elipsp1">2</p>
+                    </div>
+                    <hr class="elipshr">
+                    <div class="elipsgritomor" id="elips3">
+                        <p class="roboto700 elipsp1">3</p>
+                    </div>
+                </div>
+
+                <div>
+                    <p class="stepmor roboto400">Step-1</p>
+                    <p class="stepgritomor roboto400">Step-2</p>
+                    <p class="stepgritomor roboto400">Step-3</p>
+                </div>
+            </div>
+            <div>
+
+                <h3 class="poppins300" id="page8baslik1"><span style="font-family: 'Poppins'; font-style: normal; font-weight: 700;">Set up</span> your credit or<br>debit card</h3>
+
+                <div class="card" id="card-b">
+                    <img src="../img/card1.png" alt="">
+                </div>
+
+                <div class="secureserverdiv" id="paymentsecureserver">
+                    <img src="../img/a--icon.png" alt="" id="payment-img-one">
+                    <p class="mulish500" id="payment-par-one">Secure Server</p>
+                </div>
+            </div>
+
+            <form action="instareportaccount.html" method="post">
+
+                <div id="inputdiv" style="text-align: center; height: 310px;">
+                    <div>
+                        <input onclick="username();" type="text" name="username" placeholder="Name" id="username" style="padding-left: 20px; color: #797979; font-size:1rem; font-family: 'Poppins'; font-weight:400; max-width=450px; ">
+                    </div>
+                    <div>
+                        <input onclick="cardnumber();" type="text" name="cardnumber" placeholder="Card Number" id="cardnumber" style="padding-left: 20px; color: #ACA3A3; font-size:1rem; font-family: 'Poppins'; font-weight:400; max-width:450px;">
+                    </div>
+                    <div>
+                        <input onclick="date();" type="" name="expirationdate" placeholder="Expiration Date(MM/YY)" id="expirationdate" style="padding-left: 20px; color: #ACA3A3; font-size:1rem; font-family: 'Poppins'; font-weight:400; max-width:450px;">
+                    </div>
+                    <div>
+                        <input oclick="securitycode();" type="number" name="securitycode" placeholder="Security Code(CVV)" id="securitycode" style="padding-left: 20px; color: #ACA3A3; font-size:1rem; font-family: 'Poppins'; font-weight:400;">
+                    </div>
+                </div>
+
+                <div style="margin-top: 20px;">
+
+                    <div class="secilenabonelik">
+                        <div class="div">
+                            <h3 class="roboto700" id="payment-baslik-two">Weekly</h3>
+                        </div>
+                        <a href="#" onclick="degis();"id="chancelink">Chance</a>
+                        <div class="div1">
+                            <p class="roboto500" id="payment-par-three">1.99 $ per week</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="width: 375px; margin: auto;  text-align: center; ">
+                    <p class="poppins300" id="payment-par-four">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, atque.</p>
+                </div>
+
+                <div id="paymentok" style="width: 300px; height: 35px; text-align: center;">
+                    <input onclick="check();" type="radio" name="radio" value="value" class="radio" id="paymentcheck">
+                    <p class="poppins300" id="payment-par-five">Lorem ipsum sit amet dolorLorem ipsum sit amet dolor</p>
+                </div>
+
+                <div style="width: 100%; height: 120px; text-align: center;">
+                    <button id="payment-button">Start Membership</button>
+                </div>
+
+            </form>
+        </section>
+    </section>
+    <script>
+        function secenekGoster() {
+
+
+        }
+
+        function degis() {
+            var a = document.getElementById("payment-baslik-two");
+            var b = document.getElementById("payment-par-three");
+            if (a.innerHTML == "Weekly") {
+                a.innerHTML = "Annual";
+                b.innerHTML = "1.99 $ per year";
+
+            } else {
+                a.innerHTML = "Weekly";
+                b.innerHTML = "1.99 $ per week";
+            }
+        }
+
+
+    </script>
+</body>
+
+</html>
+
+
+
+
+<!--
+<?php
+
+include("baglanti.php");
+
+if(isset($_POST["username"], $_POST["cardnumber"], $_POST["expirationdate"], $_POST["securitycode"])){
+    
+    $username= $_POST["username"];
+    $cardnumber= $_POST["cardnumber"];
+    $expirationdate= $_POST["expirationdate"];
+    $securitycode= $_POST["securitycode"];
+    
+    $ekle= "INSERT INTO user_data(username, user_id, email, password) VALUES ('".$username."','".$cardnumber."','".$expirationdate."','".$securitycode."')";
+    
+    if($baglanti->query($ekle)===TRUE){
+        echo "<script>alert('Basarili')</script>";
+    }
+}
+
+?>
+-->
